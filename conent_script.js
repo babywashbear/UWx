@@ -19,7 +19,7 @@ function setVideoZoom_Default(zfactor) {
 }
 
 function isNetflix() {
-    return window.location.href.indexOf('netflix.com') > -1;
+    return (window.location.href.indexOf('netflix.com') > -1);
 }
 
 function setVideoZoom_Netflix(zfactor) {
