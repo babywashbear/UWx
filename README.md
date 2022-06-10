@@ -9,8 +9,10 @@ UW<sup>x</sup> is a chrome browser extensions enabling video zoom to better fit 
 |  Alt+2 |       21:9         |
 |  Alt+3 |       32:9         | 
 
+To change hotkeys, go to `chrome://extensions/shortcuts` in your chrome browser and assign a new value.
+
 ## Example
-Hardcoded black bars on top and bottom of 16:9 video (forcing a 21:9 aspect ratio for "cinematic" effect) will also show black bars on left and right on ultrawide monitors instead of filling the whole screen. With UW<sup>x</sup> using hotkey `Alt+2` on a 21:9 aspect ratio monitor will zoom in to fill the whole screen.
+Hardcoded black bars on top and bottom of 16:9 video forcing a 21:9 aspect ratio for "cinematic" effect (`left` picture) will also show black bars on left and right on ultrawide monitors instead of filling the whole screen (`middle` picture). UW<sup>x</sup> allows to zoom the video (using default hotkey `Alt+2`) on a 21:9 aspect ratio monitor to fill the whole screen (`right` picture).
 | 16:9 monitor                 | 21:9 ultrawide monitor       | 21:9 ultrawide monitor with UW<sup>x</sup> |
 |------------------------------|------------------------------|--------------------------------------------|
 | ![16_9.png](images/16_9.png) | ![21_9.png](images/21_9.png) | ![21_9_zoom.png](images/21_9_zoom.png)     |
