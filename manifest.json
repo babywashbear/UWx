@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "UvWx",
-    "version": "1.0",
-    "description": "Ultrawide Video Experience",
+    "name": "UWx",
+    "version": "0.1",
+    "description": "Ultrawide Experience",
 
     "icons": {
         "16": "images/icon16.png",
