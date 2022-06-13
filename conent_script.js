@@ -10,10 +10,10 @@ function setVideoZoom_Default(zfactor) {
     var videoTags = document.getElementsByTagName('video');
     for (let i = 0; i < videoTags.length; i++) {
         if (zfactor) {
-            videoTags[i].style.transform='scale(' + zfactor + ')';
+            videoTags[i].style.setProperty('transform', 'scale(' + zfactor + ')', 'important');
         }
         else {
-            videoTags[i].style.transform='';
+            videoTags[i].style.removeProperty('transform');
         }
     }
 }
@@ -26,14 +26,12 @@ function setVideoZoom_Netflix(zfactor) {
     var videoTags = document.getElementsByTagName('video');
     for (let i = 0; i < videoTags.length; i++) {
         if (zfactor) {
-            videoTags[i].style.transform='scale(' + zfactor + ')';
-            videoTags[i].style.left='0%';
-            videoTags[i].style.top='0%';
+            videoTags[i].style.setProperty('transform', 'scale(' + zfactor + ') translate(-50%, -50%)', 'important');
+            videoTags[i].style.setProperty('transform-origin', 'left top', 'important');
         }
         else {
-            videoTags[i].style.transform='';
-            videoTags[i].style.left='';
-            videoTags[i].style.top='';
+            videoTags[i].style.removeProperty('transform');
+            videoTags[i].style.setProperty('transform-origin');
         }
     }
 }

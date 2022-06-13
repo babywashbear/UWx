@@ -4,7 +4,7 @@ chrome.commands.onCommand.addListener(function (command) {
             chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
                 if (tabs.length > 0) {
                     chrome.action.setBadgeText({text: ''});
-                    chrome.tabs.sendMessage(tabs[0].id, {zfactor: '1'});
+                    chrome.tabs.sendMessage(tabs[0].id, {zfactor: ''});
                 }
             });
             break;
