@@ -26,3 +26,7 @@ The extension can easily be remove by clicking `Remove` on the `chrome://extensi
 | Prime Video | Netflix | Dinsey+ | Youtube |
 |-|-|-|-|
 | ![primevideo](images/Prime_Video-Logo.wine.png)  | ![netflix](images/Netflix-Logo.wine.png) | ![disney+](images/Disney%2B-Logo.wine.png) | ![youtube](images/YouTube-Logo.wine.png) |
+
+## Changelog
+- v0.0.1 - 11.06.2022 - initial release
+- v0.0.2 - 16.06.2022 - only set Badge text per tab
