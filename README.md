@@ -3,11 +3,12 @@
 UW<sup>x</sup> is a chrome browser extensions enabling video zoom to better fit ultrawide aspect ratios.
 
 ## Hotkeys
-| Hotkey | Video Aspect Ratio |
-|  :---: |      :----:        |
-|  Alt+1 |       16:9         | 
-|  Alt+2 |       21:9         |
-|  Alt+3 |       32:9         | 
+|  Hotkey  | Video Aspect Ratio |
+|  :---:   |      :----:        |
+|  Alt+1   |       16:9         |
+|  Alt+2   |       21:9         |
+|  Alt+Up  |   zfactor + 0.1    |
+| Alt+Down |   zfactor - 0.1    |
 
 To change hotkeys, go to `chrome://extensions/shortcuts` in your chrome browser and assign a new value.
 
@@ -30,3 +31,4 @@ The extension can easily be remove by clicking `Remove` on the `chrome://extensi
 ## Changelog
 - v0.0.1 - 11.06.2022 - initial release
 - v0.0.2 - 16.06.2022 - only set Badge text per tab
+- v0.0.3 - 09.01.2023 - add +/-0.01 zfactor for manual control, remove ALT+3 shortcut
